@@ -29,3 +29,35 @@ li{
 a{
     text-decoration: none;
 }
+
+.bi-star-fill{
+    transform: translateY(-2px);
+}
+.star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.star.dark:before,
+.star.dark:after{
+    content: '';
+    display: inline-block;
+    background-color: var(--dk-blue);
+
+    
+    height: 2px;
+    width: 100px;
+    
+    margin: 0 20px;
+}
+.star::before, 
+.star:after{
+    content: '';
+    display: inline-block;
+    background-color: #fff;
+    
+    height: 2px;
+    width: 100px;
+    
+    margin: 0 20px;
+}
