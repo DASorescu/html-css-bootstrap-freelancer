@@ -1,0 +1,31 @@
+:root{
+    --dk-blue:#2C3E50;
+    --green:#17BC9D;
+    --blue:#3B546D;
+}
+
+/* //utils */
+.bg-blue{
+    background-color: var(--blue);
+}
+.bg-dk-blue{
+    background-color: var(--dk-blue);
+}
+.bg-green{
+background-color: var(--green);
+}
+.text-green{
+    color: #17BC9D;
+}
+/* generic */
+li{
+    list-style-type: none;
+}
+
+.avatar{
+    height: 200px;
+}
+
+a{
+    text-decoration: none;
+}
